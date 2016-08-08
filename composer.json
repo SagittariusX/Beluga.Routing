@@ -1,0 +1,23 @@
+{
+    "name": "sagittariusx/beluga.routing",
+    "description": "Simple URL routing library.",
+    "authors": [
+        {
+            "name": "SagittariusX",
+            "email": "unikado+sag@gmail.com"
+        }
+    ],
+    "license": "LGPLv3",
+    "require": {
+        "php": ">=7.0",
+        "sagittariusx/beluga.core": "^0.1.0",
+        "sagittariusx/beluga.dynamic-properties": "^0.1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-0": {
+            "UK\\Routing\\": "src/"
+        }
+    }
+}
